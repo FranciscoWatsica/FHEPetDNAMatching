@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Hardhat files
+cache/
+artifacts/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# TypeChain
+typechain/
+typechain-types/
+
+# Coverage
+coverage/
+coverage.json
+.coverage_cache/
+.coverage_contracts/
+
+# Hardhat
+.hardhat/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Build files
+dist/
+build/
+
+# Test output
+test-results/
+.nyc_output/
+
+# Misc
+*.bak
+*.tmp
+*.temp
+.cache/
