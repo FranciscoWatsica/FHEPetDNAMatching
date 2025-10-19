@@ -47,11 +47,11 @@ After encrypted computation:
 
 ## 🚀 Live Demo
 
-**Try it now:** [https://franciscowatsica.github.io/PetDNAMatching/](https://franciscowatsica.github.io/PetDNAMatching/)
+**Try it now:** [https://franciscowatsica.github.io/FHEPetDNAMatching/](https://franciscowatsica.github.io/FHEPetDNAMatching/)
 
 **Video Demonstration:** `demo.mp4` included in the repository (GitHub doesn't support direct video playback - please download to view the full demonstration)
 
-**GitHub Repository:** [https://github.com/FranciscoWatsica/PetDNAMatching](https://github.com/FranciscoWatsica/PetDNAMatching)
+**GitHub Repository:** [https://github.com/FranciscoWatsica/FHEPetDNAMatching](https://github.com/FranciscoWatsica/FHEPetDNAMatching)
 
 ---
 
@@ -341,7 +341,7 @@ For detailed testing documentation, see [TESTING.md](./TESTING.md)
 
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/FranciscoWatsica/PetDNAMatching.git
+git clone https://github.com/FranciscoWatsica/FHEPetDNAMatching.git
 cd PetDNAMatching
 ```
 
@@ -506,7 +506,7 @@ npm run compile
 
 - 📖 [Full Testing Guide](./TESTING.md)
 - 🔗 [Zama fhEVM Docs](https://docs.zama.ai/fhevm)
-- 💬 [GitHub Issues](https://github.com/FranciscoWatsica/PetDNAMatching/issues)
+- 💬 [GitHub Issues](https://github.com/FranciscoWatsica/FHEPetDNAMatching/issues)
 - 🌐 [Zama Community](https://discord.com/invite/zama)
 
 ---
@@ -749,8 +749,8 @@ See [LICENSE](./LICENSE) file for details.
 
 ### Community
 - [Zama Discord](https://discord.com/invite/zama) - Join the FHE community
-- [GitHub Issues](https://github.com/FranciscoWatsica/PetDNAMatching/issues) - Report bugs
-- [GitHub Discussions](https://github.com/FranciscoWatsica/PetDNAMatching/discussions) - Ask questions
+- [GitHub Issues](https://github.com/FranciscoWatsica/FHEPetDNAMatching/issues) - Report bugs
+- [GitHub Discussions](https://github.com/FranciscoWatsica/FHEPetDNAMatching/discussions) - Ask questions
 
 ### Tools
 - [Sepolia Faucet](https://sepoliafaucet.com/) - Get testnet ETH
