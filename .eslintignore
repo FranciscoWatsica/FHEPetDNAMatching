@@ -1,0 +1,10 @@
+node_modules/
+coverage/
+artifacts/
+cache/
+dist/
+build/
+deployments/
+typechain/
+typechain-types/
+*.config.js
