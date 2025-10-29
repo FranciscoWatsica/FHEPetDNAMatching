@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+
+echo "Running pre-push checks..."
+
+echo "Compiling contracts..."
+npm run compile || exit 1
+
+echo "Running tests..."
+npm test || exit 1
+
+echo "Pre-push checks passed!"
