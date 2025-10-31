@@ -1,79 +1,40 @@
 {
-  "name": "privacy-pet-dna-matching",
+  "name": "fhevm-pet-dna-matching",
   "version": "1.0.0",
-  "description": "Privacy-preserving pet DNA matching platform using Zama fhEVM - Find optimal breeding partners while keeping genetic information completely private and encrypted",
-  "main": "index.html",
+  "description": "Privacy-preserving pet DNA matching system using Zama fhEVM",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
   "scripts": {
-    "compile": "npx hardhat compile",
-    "test": "npx hardhat test",
-    "test:gas": "REPORT_GAS=true npx hardhat test",
-    "test:coverage": "npx hardhat coverage",
-    "deploy": "npx hardhat run scripts/deploy.js --network sepolia",
-    "deploy:local": "npx hardhat run scripts/deploy.js --network localhost",
-    "verify": "npx hardhat run scripts/verify.js --network sepolia",
-    "interact": "npx hardhat run scripts/interact.js --network sepolia",
-    "simulate": "npx hardhat run scripts/simulate.js --network sepolia",
-    "node": "npx hardhat node",
-    "clean": "npx hardhat clean && rm -rf cache artifacts",
-    "lint": "npx solhint 'contracts/**/*.sol'",
-    "lint:fix": "npx solhint 'contracts/**/*.sol' --fix",
-    "format": "npx prettier --write 'contracts/**/*.sol' 'test/**/*.js' 'scripts/**/*.js'",
-    "size": "npx hardhat size-contracts"
+    "install:all": "npm install && cd packages/contracts && npm install && cd ../../examples/nextjs && npm install",
+    "build:contracts": "cd packages/contracts && npx hardhat compile",
+    "deploy:contracts": "cd packages/contracts && npx hardhat run scripts/deploy.ts --network sepolia",
+    "dev:nextjs": "cd examples/nextjs && npm run dev",
+    "build:nextjs": "cd examples/nextjs && npm run build",
+    "start:nextjs": "cd examples/nextjs && npm run start",
+    "test:contracts": "cd packages/contracts && npx hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FranciscoWatsica/PetDNAMatching.git"
   },
   "keywords": [
     "fhevm",
-    "fhe",
-    "zama",
     "privacy",
     "encryption",
+    "blockchain",
     "pet",
     "dna",
-    "breeding",
     "matching",
-    "blockchain",
-    "ethereum",
-    "solidity",
-    "web3"
+    "zama",
+    "homomorphic-encryption"
   ],
-  "author": "Privacy Pet DNA Team",
+  "author": "",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/FranciscoWatsica/PetDNAMatching"
-  },
   "bugs": {
     "url": "https://github.com/FranciscoWatsica/PetDNAMatching/issues"
   },
-  "homepage": "https://franciscowatsica.github.io/PetDNAMatching/",
-  "dependencies": {
-    "@fhevm/solidity": "^0.5.0",
-    "dotenv": "^16.3.1"
-  },
-  "devDependencies": {
-    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
-    "@nomicfoundation/hardhat-ethers": "^3.0.0",
-    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
-    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
-    "@nomicfoundation/hardhat-verify": "^2.0.0",
-    "@typechain/ethers-v6": "^0.5.0",
-    "@typechain/hardhat": "^9.0.0",
-    "@types/chai": "^4.3.0",
-    "@types/mocha": "^10.0.0",
-    "@types/node": "^20.0.0",
-    "chai": "^4.3.10",
-    "ethers": "^6.10.0",
-    "hardhat": "^2.22.16",
-    "hardhat-contract-sizer": "^2.10.0",
-    "hardhat-gas-reporter": "^1.0.9",
-    "prettier": "^3.0.0",
-    "prettier-plugin-solidity": "^1.3.0",
-    "solhint": "^4.1.0",
-    "solidity-coverage": "^0.8.5",
-    "typechain": "^8.3.0",
-    "typescript": "^5.0.0"
-  },
-  "engines": {
-    "node": ">=18.0.0",
-    "npm": ">=9.0.0"
-  }
+  "homepage": "https://franciscowatsica.github.io/PetDNAMatching/"
 }

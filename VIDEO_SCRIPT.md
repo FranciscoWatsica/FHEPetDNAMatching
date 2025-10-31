@@ -1,0 +1,107 @@
+# 3-Minute Video Recording Script
+## Universal FHEVM SDK Demo
+
+---
+
+## 🎬 Scene 1: Introduction (0:00 - 0:20)
+
+**Visual**: Show GitHub repository homepage
+
+**Narration**:
+"Welcome to the Universal FHEVM SDK - a framework-agnostic TypeScript SDK that makes building privacy-preserving dApps simple and intuitive. This SDK wraps all FHEVM complexity into a clean, wagmi-like API that works with React, Vue, Node.js, or vanilla JavaScript."
+
+---
+
+## 🎬 Scene 2: Architecture Overview (0:20 - 0:45)
+
+**Visual**: Show project structure diagram or file tree
+
+**Narration**:
+"The SDK has a three-layer architecture. Layer one is the framework-agnostic core with FHEVMClient for initialization, encryption, and decryption. Layer two provides React hooks like useFHEVM and useEncrypt. Layer three offers Vue 3 composables. One SDK, multiple integration options. The monorepo structure includes the SDK package, smart contracts, and framework examples."
+
+---
+
+## 🎬 Scene 3: Installation Demo (0:45 - 1:00)
+
+**Visual**: Terminal showing installation commands
+
+**Narration**:
+"Installation is simple. From the root directory, run npm run install:all to set up everything. Then compile contracts with npm run build:contracts. The SDK itself is just one npm install command: npm install @fhevm-pet-dna/sdk. That's it - you have all FHEVM functionality ready to use."
+
+---
+
+## 🎬 Scene 4: Core SDK Usage (1:00 - 1:25)
+
+**Visual**: Code editor showing FHEVMClient usage
+
+**Narration**:
+"The core SDK is incredibly simple. Create an FHEVMClient with your provider, signer, and chain ID. Call initialize once. Then encrypt any value with just one method call. The SDK handles everything: fhevmjs initialization, EIP-712 signatures, encryption, and Gateway API integration. No complex setup required - just clean, intuitive methods."
+
+---
+
+## 🎬 Scene 5: React Hooks Demo (1:25 - 1:50)
+
+**Visual**: React code and live demo of Pet DNA application
+
+**Narration**:
+"For React developers, we provide hooks that feel familiar. UseFHEVM initializes the client with loading states. UseEncrypt and useDecrypt handle operations with automatic error handling. The Pet DNA Matching demo shows real-world usage - register a pet with encrypted genetic markers, health scores, and temperament data. All encryption happens automatically through the SDK. Privacy is preserved on-chain while matching calculations work on encrypted data."
+
+---
+
+## 🎬 Scene 6: Multi-Framework Support (1:50 - 2:10)
+
+**Visual**: Show Vue code side-by-side with React code
+
+**Narration**:
+"The same SDK works across frameworks. Here's the exact same functionality in Vue 3 using composables. The API is nearly identical - useFHEVM returns reactive refs instead of React state. Switch between frameworks without rewriting your encryption logic. The core SDK even works in Node.js for backend services or CLI tools."
+
+---
+
+## 🎬 Scene 7: Key Innovations (2:10 - 2:35)
+
+**Visual**: Show features list or code highlights
+
+**Narration**:
+"What makes this SDK special? Complete abstraction - developers never touch fhevmjs internals. True framework agnosticism - one core, multiple adapters. Production-ready features like TypeScript typing, error handling, loading states, and retry logic. Contract helpers that auto-encrypt specified parameters. And comprehensive documentation with over 2,000 lines of guides and examples."
+
+---
+
+## 🎬 Scene 8: Live Deployment (2:35 - 2:50)
+
+**Visual**: Show live demo website and Etherscan verification
+
+**Narration**:
+"Everything is deployed and working. The contract is verified on Sepolia Etherscan at address 0xC16ebe7Cb0A3B057437B8A3568d6Df2FB02812d1. The live demo runs on GitHub Pages where you can connect your wallet and try privacy-preserving pet matching yourself. Full source code, documentation, and examples are all available in the repository."
+
+---
+
+## 🎬 Scene 9: Conclusion (2:50 - 3:00)
+
+**Visual**: Show repository stars, README, or final demo
+
+**Narration**:
+"The Universal FHEVM SDK makes building with fully homomorphic encryption as simple as any other web3 library. Install one package, use familiar patterns, build private dApps. Making FHEVM development simple - one encrypted computation at a time."
+
+---
+
+## 📝 Technical Details to Show:
+
+- GitHub repository: https://github.com/FranciscoWatsica/PetDNAMatching
+- Live demo: https://franciscowatsica.github.io/PetDNAMatching/
+- Contract: 0xC16ebe7Cb0A3B057437B8A3568d6Df2FB02812d1
+- Package structure: `packages/fhevm-sdk/`
+- Example code snippets for each framework
+- Documentation files (README.md, SDK_DOCUMENTATION.md)
+
+---
+
+## 🎯 Key Points to Emphasize:
+
+1. **Universal**: Works with any JavaScript framework
+2. **Simple**: Wagmi-like API, intuitive methods
+3. **Complete**: Handles all FHEVM complexity internally
+4. **Production-Ready**: TypeScript, error handling, loading states
+5. **Well-Documented**: 2,000+ lines of documentation
+6. **Working Demo**: Deployed contract and live frontend
+7. **Real Use Case**: Privacy-preserving pet DNA matching
+

@@ -1,0 +1,52 @@
+{
+  "name": "@fhevm-pet-dna/contracts",
+  "version": "1.0.0",
+  "description": "FHEVM Pet DNA Matching Smart Contracts with Gateway API v2.0+ support",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "contracts",
+    "artifacts",
+    "typechain-types",
+    "dist"
+  ],
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.ts",
+    "deploy:sepolia": "hardhat run scripts/deploy.ts --network sepolia",
+    "clean": "hardhat clean && rm -rf dist typechain-types",
+    "typechain": "hardhat compile && hardhat typechain",
+    "lint": "solhint 'contracts/**/*.sol'",
+    "format": "prettier --write 'contracts/**/*.sol'"
+  },
+  "keywords": [
+    "fhevm",
+    "fhe",
+    "zama",
+    "smart-contracts",
+    "privacy",
+    "ethereum"
+  ],
+  "author": "FHEVM Pet DNA SDK Team",
+  "license": "MIT",
+  "dependencies": {
+    "@fhevm/solidity": "^0.8.0",
+    "@zama-fhe/oracle-solidity": "^0.2.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@typechain/ethers-v6": "^0.5.0",
+    "@typechain/hardhat": "^9.0.0",
+    "@types/node": "^20.0.0",
+    "dotenv": "^16.0.0",
+    "ethers": "^6.9.0",
+    "hardhat": "^2.19.0",
+    "prettier": "^3.0.0",
+    "prettier-plugin-solidity": "^1.2.0",
+    "solhint": "^4.0.0",
+    "typechain": "^8.3.0",
+    "typescript": "^5.0.0"
+  }
+}
