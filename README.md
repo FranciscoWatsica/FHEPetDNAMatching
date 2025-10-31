@@ -27,7 +27,7 @@ The **Universal FHEVM SDK** (`@fhevm-pet-dna/sdk`) is a comprehensive developmen
 - **📦 SDK Package**: [`packages/fhevm-sdk/`](./packages/fhevm-sdk/)
 - **📚 SDK Documentation**: [SDK README](./packages/fhevm-sdk/README.md)
 - **📖 Technical Docs**: [SDK_DOCUMENTATION.md](./SDK_DOCUMENTATION.md)
-- **🎥 Video Demo**: demo1.mp4 demo2.mp4 demo3.mp4
+- **🎥 Video **: demo1.mp4 demo2.mp4 demo3.mp4
 - **🏅 Bounty Submission**: [BOUNTY_SUBMISSION.md](./BOUNTY_SUBMISSION.md)
 - **🌐 Live Demo**: [https://franciscowatsica.github.io/FHEPetDNAMatching/](https://franciscowatsica.github.io/FHEPetDNAMatching/)
 - **📜 GitHub Repo**: [https://github.com/FranciscoWatsica/fhevm-react-template](https://github.com/FranciscoWatsica/fhevm-react-template)
