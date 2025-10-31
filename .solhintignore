@@ -1,0 +1,10 @@
+# directories
+**/artifacts
+**/node_modules
+**/cache
+**/coverage
+**/dist
+**/typechain-types
+
+# files
+**/*.min.sol
