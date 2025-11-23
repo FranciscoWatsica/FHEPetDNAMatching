@@ -10,7 +10,7 @@
 
 **🌐 Live Demo**: [https://franciscowatsica.github.io/FHEPetDNAMatching/](https://franciscowatsica.github.io/FHEPetDNAMatching/)
 
-**🎥 Video Demo**: Download `demo.mp4` from repository (GitHub doesn't support embedded video playback)
+**🎥 Video Demo**: [https://youtu.be/OBg8QjIT3ek](https://youtu.be/OBg8QjIT3ek) 
 
 ---
 
